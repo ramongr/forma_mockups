@@ -1,0 +1,45 @@
+/*
+  Defaults
+*/
+
+ul{
+  list-style-type: none;
+}
+
+/*
+  Body
+*/
+body{
+  background-color: #efefef;
+}
+
+.filter{
+  background-color: white;
+  margin: 5px;
+  padding: 5px;
+}
+/*
+  Navbar custom colors
+*/
+.custom{
+  background: #333B4E;
+}
+
+.navbar-brand, .navbar-nav > li > a{
+  color: white !important;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover{
+  background-color: rgba(51, 59, 78, 0.85);
+  color: orange;
+}
+
+a.btn-inverted{
+  border: 1px solid;
+  border-color: orange;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  margin-top: 8px !important;
+}
