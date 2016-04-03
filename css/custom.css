@@ -1,45 +1,100 @@
-/*
-  Defaults
-*/
-
-ul{
-  list-style-type: none;
+html,body{
+  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-image: url(../imgs/bkg.jpg);
 }
 
-/*
-  Body
-*/
-body{
-  background-color: #efefef;
+.navbar-cr{
+  background-color: #333c4e;
+  border-color: #f56d43;
+  border-bottom: 2px solid #f56d43;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-.filter{
-  background-color: white;
-  margin: 5px;
+.container .jumbotron, .container-fluid .jumbotron{
+  border-radius: 0px;
+}
+
+.jumbotron{
+  text-align: center;
+  background: url(../imgs/banner.jpg) no-repeat center center;
+  color: #fff;
+}
+
+.container{
+  padding-left: 0px;
+  padding-right:0px;
+}
+
+.form-horizontal .form-group, .row{
+  margin-left: 0px;
+  margin-right:0px;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+  margin-top:10px; 
+}
+
+.row{
+  margin-bottom:15px; 
+}
+
+.content{
+  background-color: #fff;
+  padding: 15px;
+}
+
+.content-search{
+  background-color:#333c4e;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 16px;
+  display: inline;
+  font-weight: bold;
+}
+
+.brands{
+  background-color: #ccc;
+  min-height: 100px;
+}
+
+.course-box{
   padding: 5px;
 }
-/*
-  Navbar custom colors
-*/
-.custom{
-  background: #333B4E;
+
+.course-title{
+  font-weight: bold;
 }
 
-.navbar-brand, .navbar-nav > li > a{
-  color: white !important;
+.course-date{
+  font-style: italic;
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover{
-  background-color: rgba(51, 59, 78, 0.85);
-  color: orange;
+.btn{
+  height: 34px;
 }
 
-a.btn-inverted{
-  border: 1px solid;
-  border-color: orange;
-  padding-top: 5px !important;
-  padding-bottom: 5px !important;
-  margin-top: 8px !important;
+.btn-info{
+  background-color: #f56d43;
+  border-radius: 0px;
+  border-color:#f56d43;
+
+}
+
+.btn-info:hover{
+  background-color: #f56d43;
+  border-radius: 0px;
+  border-color:#f56d43;
+}
+
+.form-control{
+  border-radius: 0px;
+}
+
+.form-control:focus{
+  border-color:#f56d43;
+  box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(245, 109, 67, 0.6);
 }
