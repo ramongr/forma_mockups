@@ -11,6 +11,29 @@ html,body{
   font-weight: bold;
 }
 
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+  background-color: #f56d43;
+  color:#fff;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+  background-color: #f56d43;
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover{
+  background-color: #f56d43;
+  color: #fff;  
+}
+
+.navbar-nav > li > .dropdown-menu{
+  margin-top: 1px;
+}
+
 .container .jumbotron, .container-fluid .jumbotron{
   border-radius: 0px;
 }
@@ -19,14 +42,10 @@ html,body{
   text-align: center;
   background: url(../imgs/banner.jpg) no-repeat center center;
   color: #fff;
+  margin-bottom: 25px;
 }
 
-.container{
-  padding-left: 0px;
-  padding-right:0px;
-}
-
-.form-horizontal .form-group, .row{
+.form-horizontal .form-group{
   margin-left: 0px;
   margin-right:0px;
 }
@@ -47,13 +66,14 @@ html,body{
 .content-search{
   background-color:#333c4e;
   padding: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 h3 {
   font-size: 16px;
   display: inline;
   font-weight: bold;
+  padding-right: 10px;
 }
 
 .brands{
@@ -81,7 +101,6 @@ h3 {
   background-color: #f56d43;
   border-radius: 0px;
   border-color:#f56d43;
-
 }
 
 .btn-info:hover{
@@ -98,3 +117,4 @@ h3 {
   border-color:#f56d43;
   box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(245, 109, 67, 0.6);
 }
+
