@@ -7,8 +7,10 @@ html,body{
   background-color: #333c4e;
   border-color: #f56d43;
   border-bottom: 2px solid #f56d43;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
@@ -32,6 +34,8 @@ html,body{
 
 .navbar-nav > li > .dropdown-menu{
   margin-top: 1px;
+  text-transform:lowercase;
+  letter-spacing: 0em;
 }
 
 .container .jumbotron, .container-fluid .jumbotron{
