@@ -1,6 +1,7 @@
 html, body{
-  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-  background-image: url(../imgs/bkg.jpg);
+  font-family: 'Montserrat',Helvetica,Arial,sans-serif;
+  /*background-image: url(../imgs/bkg.jpg);*/
+  font-size: 16px;
 }
 
 .navbar-cr{
@@ -10,7 +11,10 @@ html, body{
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+}
+
+.navbar{
+  margin-bottom: 0px;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
@@ -35,7 +39,6 @@ html, body{
 .navbar-nav > li > .dropdown-menu{
   margin-top: 1px;
   text-transform:lowercase;
-  letter-spacing: 0em;
 }
 
 .container .jumbotron, .container-fluid .jumbotron{
@@ -44,9 +47,10 @@ html, body{
 
 .jumbotron{
   text-align: center;
-  background: url(../imgs/banner.jpg) no-repeat center center;
+  background: url(../imgs/banner2.jpg) no-repeat center center;
   color: #fff;
-  margin-bottom: 25px;
+  background-size: cover;
+  margin-bottom: 0px;
 }
 
 .form-horizontal .form-group{
@@ -73,6 +77,14 @@ html, body{
   margin-bottom: 25px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    color: #424242;
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
 h3 {
   font-size: 16px;
   display: inline;
@@ -80,9 +92,42 @@ h3 {
   padding-right: 10px;
 }
 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.title h2{
+  float: left;
+}
+
+.see-all{
+  float: left;
+  line-height: 1.9;
+  margin-top: 20px;
+  padding-left: 10px;
+}
+
 .brands{
-  background-color: #ccc;
-  min-height: 100px;
+  /*background-color: #ccc;*/
+  display:inline-block;
+  width: 90%;
+  height: 150px;
+}
+
+.brands img{
+  width:auto;
+  height:auto;
+  max-height:100%;
+  max-width:100%;
+  position:absolute;
+  margin:auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding:20px;
 }
 
 .course-box{
