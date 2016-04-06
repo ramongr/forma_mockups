@@ -1,0 +1,7 @@
+html, body{
+  background-image: url(../imgs/bkg.jpg);
+}
+
+.navbar{
+	margin-bottom: 20px;
+}
